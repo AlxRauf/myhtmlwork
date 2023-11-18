@@ -1,0 +1,471 @@
+body{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+
+                            /* our header  */
+#head{
+  margin: 0px 50px;
+  display: flex;
+  height: 60px;
+  /* border: 2px solid rebeccapurple; */
+}
+#head::before{
+  content: "";
+  background-color: rgb(245, 245, 245);
+  opacity: 20%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: -1;
+
+}
+.logo{
+  /* border: 2px solid black; */
+  display: flex;
+  height: 60px;
+  width: 250px;
+  align-items: center;
+  justify-content: left;
+}
+.logo img{
+  height: 30px;
+  padding: auto;
+}
+.logo h1{
+  font-size: 1.2rem;
+  padding: 5px;
+}
+.pink{
+  color:rgb(250,20,130);
+}
+
+#navbar, #navbar ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding-inline-start: 0px;
+}
+#navbar ul li a{
+  font-size: 16px;
+  margin: 5px;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+@media(min-width:1150px){
+  #navbar ul li a{
+   font-size: 19px;
+   margin: 5px;
+   padding: 20px;
+      }
+    }
+    
+    /* our section 1 */
+
+    
+    .sec{
+      margin: 0px 50px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .payment{
+      height: 15px;
+      padding: 5px;
+      margin: 2px;
+    }
+    #heading h1{
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin: 0px;
+  padding:5px 0px;
+}
+#heading #fw{
+  font-weight: bold;
+}
+.sec::before{
+  content: "";
+  background: url(images/bgsec.jpg) ;
+  opacity: 70%;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 600px;
+  width: 100%;
+  z-index: -1;
+  shape-image-threshold: 200px;
+  }
+
+                                      /* plane  */
+#plane{
+  height: 66px;
+  position: absolute;
+  top: 110px;
+  left: 350px;
+}
+                                      /* white box */
+
+#whitebox{
+  border-radius: 5px;
+  height: 170px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  font-size: 15px;
+}
+/* where inputype is dot */
+#selecttype{
+  height: 50px;
+  display: flex;
+  margin-top: 10px;
+}
+.way{
+  padding: 5px 20px;
+}
+/* main box of lower 4  */
+#travel{
+  display: flex;
+  margin: 0px 10px;
+  }
+  /* each box  */
+  .travelnow{
+    border: 1px solid black;
+    display: flex;
+    width: 24.5%;
+    height: 100px;
+    margin: 0px;
+    align-items: center;
+
+  }
+  .location{
+  height: 30px; 
+  padding: 10px;
+}
+
+  #date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1rem;
+  }
+  
+  #date h3,#date h1{
+    font-size: 21px;
+    margin: 3px 0px
+  }
+  #date p{
+    margin: 3px;
+  }
+  #date .seedate{
+    display: flex;
+    margin: -5px;
+    align-items: center;
+    flex-direction: row;
+}
+
+  #dt{ /* date and time text */
+    margin-top: 15px;
+  }
+  #num{ /*number with border*/
+border: 1px solid black;
+padding: 0px 3px;
+} 
+#searchhere{ /*4th search box*/
+  margin: 5px;
+}
+#searchhere input{/*search input*/
+  width: 90%;
+  height: 20px;
+  margin: 2px;
+}
+#searchicon{
+  padding: 4px;
+  margin: 3px;
+  border: 0.5px;
+  border-radius: 2px;
+  background-color: rgb(62, 117, 236);
+}
+                        /* services sections */
+
+  #service{
+  margin: auto 50px;
+margin-top: 70px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom: 20px;
+} 
+#service > h1{
+text-align: center;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow:1px 1px 7px 0px rgba(0, 0, 0, 0.518);
+border-radius: 5px;
+  height: auto;
+  width: 145px;
+  margin: 7px;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 30px;
+} 
+.serviceblock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}     
+.box img{
+  height: 70px;
+  width: 70px;
+  margin-bottom: 0px;
+  border-radius: 50px;
+} 
+.box p{
+  text-align: center;
+    padding: 0px 7px;
+    margin: 0px 0px;
+    font-size: 14px;
+}   
+.box h3{
+  padding:0px 20px;
+  font-size: 20px;
+  margin: 0px 10px;
+  text-align: center;
+}      
+
+
+                                    /* 3rd section  */
+#section3{
+  background: url(bgsec.jpg);
+  background-size: cover;
+  height: 70%;
+}
+#left{
+  width: 40%;
+  margin: 0px 50px;
+  padding: 15px 0px;
+}
+.btn{
+  width: 150px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: rgb(60, 128, 187);
+  text-decoration: none;
+  margin-top: 50px;
+  }
+.btn a{
+  text-decoration: none;
+  color: black;
+}
+                                  
+
+                            /* reviews about us  */
+  #reviews{
+  margin: auto 50px;
+  padding-bottom: 50px;
+padding-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} 
+#reviews > h1{
+text-align: center;
+}
+.reviewsblock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+} 
+.rbox{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow:1px 1px 7px 0px rgba(0, 0, 0, 0.518);
+border-radius: 5px;
+  height: auto;
+  width: 145px;
+  margin: 7px;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 30px;
+}
+.rbox img{
+  height: 70px;
+  width: 70px;
+  margin-bottom: 0px;
+  border-radius: 2px;
+  padding: 2px;
+} 
+.rbox p{
+  text-align: center;
+    padding: 2px 7px;
+    margin: 0px 0px;
+    font-size: 14px;
+}   
+.rbox h3{
+  padding: 2px 5px;
+  font-size: 18px;
+  margin: 0px 0px;
+  text-align: center;
+} 
+.star{
+  color: rgb(245, 157, 41);
+  font-size: 10px;
+}
+.date{
+  font-size: 12px;
+}
+
+
+
+                                      /* news and articles  */
+
+                                
+#newsandarticle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  border: 2px solid rgb(230, 230, 230);
+}
+.blogs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  width: 100%;
+}
+.blog{
+    width: 18%;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+/* #blog1{
+  float: left;
+}
+#blog2{
+  float: right;
+}
+#blog3{
+  position: relative;
+ top: 0px;
+ 
+} */
+.blog img{
+  width: 100%;
+    border-radius: 5px;
+    /* display: block; */
+ 
+}
+.meta{
+  display: inline-block;
+  /* float: left; */
+}
+.blog .date{
+  position: relative;
+    left: 65%;
+    top: -15px;
+}
+.blog h2{
+  font-size: 18px;
+  font-weight:bold;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+footer{
+  /* height: 260px; */
+  
+  /* border: 2px solid red; */
+  background-color:rgb(233, 196, 255);
+  display: flex;
+
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+.fbox{
+  display: flex;
+  flex-direction: column;
+  width: 20.7%;
+  padding: 20px;
+  /* border: 1px solid black; */
+}
+.fbox h2{
+  margin-block-start: 0px;
+}
+.fbox h4{
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+  padding: 3px 0px;
+}
+footer img{
+  height: 30px;
+  width: 30px;
+}
+footer #flogo{
+  font-size: 16px;
+}
+
+
+.fa{
+  float: left;
+}
+
+
+
+
+
+
+  @media(min-width:1150px){
+    #navbar{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+    #heading h1{ 
+      font-size: 3.5rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+      margin: 0px;
+      padding:5px 0px;
+    }
+    #plane{
+      height: 66px;
+      position: absolute;
+      top: 110px;
+      left: 450px;
+    }
+    .sec::before{
+      height: 65%;
+    }
+    .box {
+      /* background-color: aqua; */
+      height: auto;
+      width: 250px;
+      margin: 5px;
+  }
+  }
